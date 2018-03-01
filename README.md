@@ -32,13 +32,17 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## How to deploy to the Heroku server
 
 ``` bash
-# set up heroku CLI
+
+# install heroku CLI
+
+# create production files (/dist)
+npm run build
 
 # Log in using the email address and password you used when creating your Heroku account:
 heroku login
 
 # update the remote’s details
-heroku git:remote -a powerful-forest-33021
+heroku git:remote -a email-app-bilegochir
 
 # add to git
 git add .
@@ -58,4 +62,5 @@ heroku open
 ## TODO list
 
 - [ ] Create service file to handle API services
-- [ ] Improve API status check
+- [ ] Need more testing on input validation
+- [ ] Able to attach file
