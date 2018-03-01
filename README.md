@@ -5,6 +5,10 @@
 ## How to run on your local machine
 
 ``` bash
+
+# make sure server application running
+# set the server API port (default: 3000)
+
 # install dependencies
 npm install
 
