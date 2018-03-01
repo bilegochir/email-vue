@@ -2,6 +2,13 @@
 
 > Email service that accepts the necessary information and sends emails
 
+## Built With
+
+* [NodeJS](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine
+* [VueJS](https://vuejs.org/) - The progressive javascript frontend framework
+* [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+* [SweetAlert](https://sweetalert.js.org/) - Mail Service for the Sendgrid v3 Web API
+
 ## How to run on your local machine
 
 ``` bash
