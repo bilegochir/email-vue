@@ -1,8 +1,8 @@
-# client
+# VueJS frontend application for EmailApp
 
 > Email service that accepts the necessary information and sends emails
 
-## Build Setup
+## How to run on your local machine
 
 ``` bash
 # install dependencies
@@ -25,6 +25,37 @@ npm run e2e
 
 # run all tests
 npm test
+
+```
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## How to deploy to the Heroku server
+
+``` bash
+# set up heroku CLI
+
+# Log in using the email address and password you used when creating your Heroku account:
+heroku login
+
+# update the remote’s details
+heroku git:remote -a powerful-forest-33021
+
+# add to git
+git add .
+git commit -m 'Commit message'
+
+# now deploy your code
+git push heroku master
+
+# restart heroku server (optional)
+heroku restart
+
+# open the deployed application
+heroku open
+
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## TODO list
+
+- [ ] Create service file to handle API services
+- [ ] Improve API status check
