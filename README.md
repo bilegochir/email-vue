@@ -7,7 +7,7 @@
 * [NodeJS](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine
 * [VueJS](https://vuejs.org/) - The progressive javascript frontend framework
 * [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
-* [SweetAlert](https://sweetalert.js.org/) - Mail Service for the Sendgrid v3 Web API
+* [SweetAlert](https://sweetalert.js.org/) - Alert library for error handling
 
 ## How to run on your local machine
 
